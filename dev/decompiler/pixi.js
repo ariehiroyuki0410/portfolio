@@ -9,23 +9,31 @@ $(function(){
 	});
 
   var width = 600;
-  var height = 400;
+  var height = 600;
   var stage = new PIXI.Stage(0x000000);
   var renderer = PIXI.autoDetectRenderer(width,height);
 
   document.getElementById("pixiview").appendChild(renderer.view);
 
-  var word = "Hello World!";
-  var style = {font:"bold 60pt Futura-PT", fill:"white"};
-  var textobj = new PIXI.Text(word, style);
-  textobj.position.x = 60;
-  textobj.position.y = height / 2;
+  var texture = PIXI.Texture.fromImage('assets/img/img1.jpg');
+  var logoimg = new PIXI.Sprite(texture);
+  logoimg.position.x = width / 2;
+  logoimg.position.y = height / 2;
+  logoimg.anchor.x = 0.5;
+  logoimg.anchor.y = 0.5;
+  // logoimg.width = 60;
+  // logoimg.height = 60;
+  logoimg.scale.x = 0.3;
+  logoimg.scale.y = 0.3;
 
-  stage.addChild(textobj);
+  logoimg.visible = true;
+  logoimg.alpha = 0.8;
+
+  stage.addChild(logoimg);
 
   function animate(){
     requestAnimationFrame(animate);
-    textobj.rotation += 0.01;
+    logoimg.rotation += 0.01;
     renderer.render(stage);
   }
 
