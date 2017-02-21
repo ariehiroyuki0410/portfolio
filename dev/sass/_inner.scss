@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#inner_page{
+
+	.inner{
+		width: 60%;
+		margin: 120px auto 0 auto;
+		.contents{
+			width: 100%;
+			margin-bottom: 200px;
+			h2{
+				font-size: 2.6rem;
+				text-align: center;
+				letter-spacing: .15em;
+				margin-bottom: 80px;
+			}
+			p.info{
+				border-top: 1px solid #000;
+				padding-top: 60px;
+				font-size: 1.4rem;
+				line-height: 1.8em;
+				letter-spacing: .1em;
+			}
+			p.credit{
+				border-top: 0px solid #000;
+				padding-top: 50px;
+				font-size: 1.2rem;
+				color: rgb(157, 157, 157);
+				line-height: 1.8em;
+				letter-spacing: .1em;
+			}
+			ul{
+				margin: 0 auto;
+				width: 100%;
+				margin-bottom: 12%;
+				li{
+					width: 100%;
+					margin: 0 0 6% 0;
+					a{
+						.img-wrapper{
+							img{
+								&:hover{
+									opacity: .2;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
