@@ -1,61 +1,18 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>arie│portfolio</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="description" content="">
-<meta name="keywords" content="ariehiroyuki,有江博之" />
+<?php
+$WEBSITE = $_SERVER['DOCUMENT_ROOT'];
+include($WEBSITE . "/module/meta.php");
+?>
 
-<!-- *** SHORTCUT ICON *** -->
-<link rel="shortcut icon" href="/favicon.ico" />
-
-<!-- *** OGP *** -->
-<meta property="og:title" content="arie" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="http://arie-hiroyuki.com/" />
-<meta property="og:image" content="http://arie-hiroyuki.com/img/ogp.png" />
-<meta property="og:site_name" content="arie" />
-<meta property="og:description" content="arie" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:description" content="arie" />
-<meta itemprop="image" content="http://arie-hiroyuki.com/img/ogp.png" />
-<!-- *** stylesheet *** -->
-<link href="./assets/css/slider.css" rel="stylesheet" type="text/css" media="all" />
-<link href="./assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-
-<!-- *** javascript *** -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="https://use.typekit.net/pqq3bge.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<script type="text/javascript" src="./assets/js/lib.js"></script>
-<script type="text/javascript" src="./assets/js/common.js"></script>
-</head>
 <body id="top">
-  <header>
-    <div class="header-inner">
-      <h1><a href="#">arie</a></h1>
-      <nav>
-        <ul>
-          <li><a href="https://www.instagram.com/ariehiroyuki0410/" target="_blank"><span>about</span></a></li>
-          <li><a href="mailto:mail@arie-hiroyuki.com"><span>contact</span></a></li>
-        </ul>
-      </nav>
-      <ul class="inner_nav">
-        <li class="on" data-filter="all"><span>all</span></li>
-        <li class="" data-filter="1"><span>web</span></li>
-        <li class="" data-filter="2"><span>graphic</span></li>
-        <li class="" data-filter="3"><span>fashion</span></li>
-      </ul>
-    </div>
-  </header>
+  <?php include($WEBSITE . "/module/header.php"); ?>
+
+
   <section class="inner">
 
     <section class="contents" id="contents">
       <ul class="filtr-container">
         <li class="filtr-item category-1" data-category="1" data-sort="value">
-          <a href="inner.html">
+          <a href="/works/fashion/01/">
             <div class="img-wrapper"><img src="./assets/img/img1.jpg" alt="" /></div>
           </a>
         </li>
@@ -95,7 +52,7 @@
           </a>
         </li>
         <li class="filtr-item category-1" data-category="2" data-sort="value">
-          <a href="inner.html">
+          <a href="">
             <div class="img-wrapper"><img src="./assets/img/img1.jpg" alt="" /></div>
           </a>
         </li>
