@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  font-family: "futura-pt", helvetica, arial, sans-serif; /* $base_font */
+  font-family: "futura-pt", helvetica, arial, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif; /* $base_font */
   font-weight: 400;
   color: #000;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +35,9 @@ a{
   text-decoration: none;
   transition: all 0.3s ease;
   &:hover{
+    transition: all 0.3s ease;
     backface-visibility:hidden;
+    opacity: 0.2;
   }
   &:link{
     color: #000;
