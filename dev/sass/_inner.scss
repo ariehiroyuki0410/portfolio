@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #inner_page{
-
+	// background-color: #f6f6f6;
 	.inner{
 		width: 80%;
 		margin: 100px auto 0 auto;
@@ -39,8 +39,8 @@
 			ul{
 				margin: 0 auto;
 				width: 100%;
-				margin-bottom: 12%;
 				li{
+					border: 1px solid #f6f6f6;
 					width: 100%;
 					margin: 0 0 6% 0;
 					a{

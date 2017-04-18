@@ -24,7 +24,7 @@ include($WEBSITE . "/module/meta.php");
         <p class="info link"><a href="http://noble.spickandspan.jp/feature/2016SS_0511" target="_blank">visit website</a></p>
         <p class="credit">
           logo design : me<br>
-          design : me
+          design : me<br>
         </p>
       </div>
     </section>
