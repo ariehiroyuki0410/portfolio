@@ -1,0 +1,2 @@
+$(window).on("load",function(){var o=location.href;"http://localhost:3001/"==o&&mixitup("#Container",{load:{sort:"default:desc"}}),"http://192.168.1.14:3001/"==o&&mixitup("#Container",{load:{sort:"default:desc"}}),$(".filter").click(function(){$(".filter").removeClass("on"),$(this).addClass("on")}),$(function(){var o=$(".showf");$(window).scroll(function(){$(this).scrollTop()>150?o.addClass("showf-on"):o.removeClass("showf-on")}),o.click(function(){return $("body, html").animate({scrollTop:0},400),!1})})});
+//# sourceMappingURL=common.js.map
