@@ -19,6 +19,7 @@ include($WEBSITE . "/module/meta.php");
         <p class="info link"><a href="http://yamanashi-ap.com/" target="_blank">visit website</a></p>
         <p class="credit">
           logo design : me<br>
+          
           design : me
         </p>
       </div>
