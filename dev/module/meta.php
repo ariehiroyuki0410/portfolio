@@ -27,7 +27,7 @@
 
 <!-- *** javascript *** -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="https://use.typekit.net/pqq3bge.js"></script>
+<script src="https://use.typekit.net/gcw5gav.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <script type="text/javascript" src="/assets/js/lib.js"></script>
 <script type="text/javascript" src="/assets/js/common.js"></script>

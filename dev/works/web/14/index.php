@@ -13,6 +13,7 @@ include($WEBSITE . "/module/meta.php");
       <ul>
         <li class=""><img src="/assets/img/works/web/14/01.png" alt="" /></li>
         <li class=""><img src="/assets/img/works/web/14/02.png" alt="" /></li>
+        <li class=""><img src="/assets/img/works/web/14/03.png" alt="" /></li>
       </ul>
       <div class="text-section">
         <p class="info">kotohayokozawa</p>
@@ -25,8 +26,9 @@ include($WEBSITE . "/module/meta.php");
     </section>
 
   </section>
-  <footer>
-      <p><a href="/">д</a></p>
-  </footer>
+  <?php
+    $WEBSITE = $_SERVER['DOCUMENT_ROOT'];
+    include($WEBSITE . "/module/footer.php");
+  ?>
 </body>
 </html>

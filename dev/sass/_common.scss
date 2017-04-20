@@ -8,6 +8,9 @@
 /* base_font-size 1rem = 10px */
 html {
   font-size: 62.5%;
+
+  ::selection {background: rgb(235, 255, 0); color: #000;}
+  ::-moz-selection {background: rgb(235, 255, 0); color: #000;}
 }
 
 //clearfix @include clearfix;
@@ -24,7 +27,7 @@ html {
 }
 
 body {
-  font-family: "futura-pt", helvetica, arial, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif; /* $base_font */
+  font-family: "futura-pt", helvetica, arial, a-otf-gothic-bbb-pr6n, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif; /* $base_font */
   font-weight: 400;
   color: #000;
   -webkit-font-smoothing: antialiased;
@@ -37,7 +40,6 @@ a{
   &:hover{
     transition: all 0.3s ease;
     backface-visibility:hidden;
-    opacity: 0.2;
   }
   &:link{
     color: #000;
@@ -53,10 +55,59 @@ img{
   height: auto;
 }
 
+footer{
+	font-size: 3.5rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	p{
+		display: inline-block;
+		background: #fff;
+	}
+  a{
+    display: inline-block;
+  }
+	a.showf span.en{display:inline-block; }
+	a.showf:hover span.en{ display:none; }
+	a.showf span.jp{ display:none; }
+	a.showf:hover span.jp{ display:inline-block; }
+
+  .showf{
+	opacity: 0;
+	transform: translate(0,100px);
+  transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  .showf-on{
+	opacity: 1.0;
+	transform: translate(0,0);
+  transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+}
+
 .yu-g{
   font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
 }
 
 .yu-m{
   font-family: "游明朝体", "Yu Mincho", YuMincho,  serif;
+}
+
+.bbb{
+  font-family: a-otf-gothic-bbb-pr6n, "游明朝体", "Yu Mincho", YuMincho, sans-serif;
+  font-size: 2rem!important;
+
+  @media screen and ( max-width:763px ){
+    font-size: 1.7rem!important;
+  }
+}
+.bbb-mini{
+  font-family: a-otf-gothic-bbb-pr6n, "游明朝体", "Yu Mincho", YuMincho, sans-serif;
+  font-size: 1.2rem!important;
+
+  @media screen and ( max-width:763px ){
+    font-size: 1.4rem!important;
+    line-height: 2em!important;
+  }
 }

@@ -26,8 +26,9 @@ include($WEBSITE . "/module/meta.php");
     </section>
 
   </section>
-  <footer>
-      <p><a href="/">д</a></p>
-  </footer>
+  <?php
+    $WEBSITE = $_SERVER['DOCUMENT_ROOT'];
+    include($WEBSITE . "/module/footer.php");
+  ?>
 </body>
 </html>

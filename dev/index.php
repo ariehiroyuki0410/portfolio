@@ -96,13 +96,27 @@ include($WEBSITE . "/module/meta.php");
             <div class="img-wrapper"><img src="./assets/img/works/web/17/thamb.png" alt="" /></div>
           </a>
         </li>
-
-
+        <li class="filtr-item mix category-1">
+          <a href="/works/web/18/">
+            <div class="img-wrapper"><img src="./assets/img/works/web/18/thamb.png" alt="" /></div>
+          </a>
+        </li>
+        <li class="filtr-item mix category-1">
+          <a href="/works/web/19/">
+            <div class="img-wrapper"><img src="./assets/img/works/web/19/thamb.png" alt="" /></div>
+          </a>
+        </li>
+        <li class="filtr-item mix category-1">
+          <a href="/works/web/20/">
+            <div class="img-wrapper"><img src="./assets/img/works/web/20/thamb.png" alt="" /></div>
+          </a>
+        </li>
       </ul>
     </section>
   </section>
-  <footer>
-      <p>Що ви бачите звідти</p>
-  </footer>
+  <?php
+    $WEBSITE = $_SERVER['DOCUMENT_ROOT'];
+    include($WEBSITE . "/module/footer.php");
+  ?>
 </body>
 </html>

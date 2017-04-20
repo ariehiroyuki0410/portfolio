@@ -9,25 +9,29 @@ include($WEBSITE . "/module/meta.php");
   <section class="inner">
 
     <section class="contents" id="contents">
-      <h2>Noble| Masculine / Feminine</h2>
+      <h2>Archi've</h2>
       <ul>
-        <li class=""><img src="/assets/img/works/web/07/01.png" alt="" /></li>
-        <li class=""><img src="/assets/img/works/web/07/02.png" alt="" /></li>
-        <li class=""><img src="/assets/img/works/web/07/03.png" alt="" /></li>
+        <li class=""><img src="/assets/img/works/web/15/01.gif" alt="" /></li>
+        <li class=""><img src="/assets/img/works/web/15/02.png" alt="" /></li>
+        <li class=""><img src="/assets/img/works/web/15/03.png" alt="" /></li>
+        <li class=""><img src="/assets/img/works/web/15/04.png" alt="" /></li>
+        <li class=""><img src="/assets/img/works/web/15/05.png" alt="" /></li>
       </ul>
       <div class="text-section">
-        <p class="info">Noble| Masculine / Feminine</p>
-        <p class="info link"><a href="http://noble.spickandspan.jp/feature/2016AW_1208/" target="_blank">visit website</a></p>
+        <p class="info">Archi've</p>
+        <p class="info link"><a href="http://archi-ve.jp/" target="_blank">visit website</a></p>
         <p class="credit">
           logo design : me<br>
-          design : me
+          design : me<br>
+          develop : me
         </p>
       </div>
     </section>
 
   </section>
-  <footer>
-      <p><a href="/">д</a></p>
-  </footer>
+  <?php
+    $WEBSITE = $_SERVER['DOCUMENT_ROOT'];
+    include($WEBSITE . "/module/footer.php");
+  ?>
 </body>
 </html>

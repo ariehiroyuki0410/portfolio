@@ -1,6 +1,6 @@
 <header>
   <div class="header-inner">
-    <h1><a href="/">arie</a></h1>
+    <h1><a href="/"><span>arie</span></a></h1>
     <nav>
       <ul>
         <li><a href="https://www.instagram.com/ariehiroyuki0410/" target="_blank"><span>about</span></a></li>

@@ -11,6 +11,7 @@ include($WEBSITE . "/module/meta.php");
     <section class="contents" id="contents">
       <h2>BAYCREW'S GROUP | LOVE MORE FASHION</h2>
       <ul>
+        <li class=""><img src="/assets/img/works/web/11/01.gif" alt="" /></li>
         <li class=""><img src="/assets/img/works/web/11/01.png" alt="" /></li>
       </ul>
       <div class="text-section">
@@ -24,8 +25,9 @@ include($WEBSITE . "/module/meta.php");
     </section>
 
   </section>
-  <footer>
-      <p><a href="/">д</a></p>
-  </footer>
+  <?php
+    $WEBSITE = $_SERVER['DOCUMENT_ROOT'];
+    include($WEBSITE . "/module/footer.php");
+  ?>
 </body>
 </html>

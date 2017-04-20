@@ -11,6 +11,7 @@ include($WEBSITE . "/module/meta.php");
     <section class="contents" id="contents">
       <h2>Noble Spick and Span×Naoko Okusa×ADAM「if.」</h2>
       <ul>
+        <li class=""><img src="/assets/img/works/web/01/01.gif" alt="" /></li>
         <li class=""><img src="/assets/img/works/web/01/01.png" alt="" /></li>
         <li class=""><img src="/assets/img/works/web/01/02.png" alt="" /></li>
         <li class=""><img src="/assets/img/works/web/01/03.png" alt="" /></li>
@@ -30,8 +31,10 @@ include($WEBSITE . "/module/meta.php");
     </section>
 
   </section>
-  <footer>
-      <p><a href="/">д</a></p>
-  </footer>
+
+  <?php
+    $WEBSITE = $_SERVER['DOCUMENT_ROOT'];
+    include($WEBSITE . "/module/footer.php");
+  ?>
 </body>
 </html>
